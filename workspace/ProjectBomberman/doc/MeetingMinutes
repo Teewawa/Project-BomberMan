@@ -1,0 +1,97 @@
+Meeting minutes (once per week starting on week 3)
+
+Time: Sunday 02/03/2014 from 11AM to 1PM
+Place: McGill McLennan Library
+Minute taker: Leotard Niyonkuru	
+Meeting manager: Brett Leighton
+Problems encountered/discussed: General overview of the project and the understanding of which task everyone is better at.
+Task allocation:
+Brett and Martin  will start working on graphics to try to display the map.
+Marc will work on the key listener 
+Mete will start getting some documentation on the display of panels
+Leotard will be responsible of enemy movement, so he will work on threadings. He will start by getting documentation on them.
+
+
+Time: Sunday 09/03/2014 from 11AM to 12PM
+Place: McGill McLennan Library
+Minute taker: Martin Zhang	
+Meeting manager: Marc-André Cataford Smalis
+Problems encountered/discussed: We presented so far what each of us have done, we have to now put as priority to the implementation of the Graphics Class. It blocks severals tasks to be done and tested. The map that we have now doesn’t generate randomly so we need to work on that. We need image file for enemies and player.
+Task allocation:
+Brett and Martin  will continue working on graphics. We need a working Graphic class for next week with a map that generates randomly.
+Marc will keep on working on the key listener, he doesn’t need Graphics class to be implemented
+Mete is not done yet with documentation on panel, he will meet the TA this week.
+Leotard if Mete and Martin are done he will be able to start working on enemy movement.
+
+
+Time: Saturday 15/03/2014 from 4PM to 5PM
+Place: McGill McLennan Library
+Minute taker: Brett Leighton	
+Meeting manager: Mete Kemertas
+Problems encountered/discussed: The map is working well we decide to randomly generate just the softBlocks not the hardBlocks. We decide to have to different panels (the mainMenu and Game panel). 
+Task allocation:
+Leotard and Martin will work both on AI for enemy.
+Marc and Brett are working on player movement. 
+Mete started implementing panels. 
+Leotard if Mete and Martin are done he will be able to start working on enemy movement.
+
+
+Time: Sunday 23/03/2014 from 4PM to 5PM
+Place: McGill McLennan Library
+Minute taker: Marc-André Cataford Smalis	
+Meeting manager: Leotard Niyonkuru
+Problems encountered/discussed: We were using key listener but we found that key binding would be better it is a bit harder to implement though and no one knows how to. 
+Task allocation:
+Leotard and Martin will work both on AI for enemy.
+Marc and Brett are working on player movement and they will start getting some documentation on key binding . 
+Brett will working mainly on Main game logic (GameEngine, tells the game to start a new game based on level etc.. ) and implement a 2 player alternating mode.
+Mete will be working on new button like “back” button for example and try to have some more creative button too. 
+Leotard will keep on working on Physics and making the collision method. He needs to work on Threading. Someone needs to figure out how to do this. There's a repaint() method (look it up) that will just recall the paint() method in Graphics periodically, and have to do a similar thing for the physics.
+
+
+Time: Friday 28/03/2014 from 7PM to 8PM
+Place: McGill McLennan Library
+Minute taker: Mete Kemertas	
+Meeting manager: Martin Zhang
+Problems encountered/discussed: We were using key listener but we found that key binding would be better it is a bit harder to implement though and no one knows how to. We need to have a certain harmony in our game: for instance the bottom “back” should always be on the bottom left of the screen. Now we have some problem with the starting of the game that need to be fixed.
+Task allocation:
+Martin will have the javadoc comments completed for GameStatus, MapObject and all of it's subclasses.
+Marc will work on save/load immediately afterwards, and have something functional by Tuesday. 
+Brett  will keep on working mainly on Main game logic. But he will also implement all the powersUp and if he has time he will help Mete with the panels.
+Mete is working on the panels, and should have the game be able to start again by Saturday midnight. All panels will be in place by Tuesday. He will keep on doing some change to have a better looking game. 
+Leotard Leo is looking into threading. By Tuesday, he should fix the problem related to the CPU usage after that Mete fixed the problem with the starting of the game.
+
+
+
+Time: Sunday 6/04/2014 from 6PM to 6:30PM
+Place: McGill McLennan Library
+Minute taker: Leotard Niyonkuru	
+Meeting manager: Brett Leighton
+Problems encountered/discussed: We implemented a save and load module in a separate repo for testing, you can check it out in my GitHub, under DesignTests. Currently implementing the parsed load, then inserting it into the code. Added the loading module. MAJOR BUG: If there's a game running, cannot create a new game. The thread crashes. See IllegalThreadStateException. 
+Brett implemented the canMove method and it needs to be the same for every livingObject
+Task allocation:
+Martin need to update the javaDoc comments and will work on the instruction display.
+Marc is working on the panels. Current level/score displayed at top of screen and fixing bugs
+Brett he will work on the threading problem. He will make the boss and another different enemy with different ability like passing through softBlock
+Mete is working on the panels. 
+Leotard have to fix the problem when the enemy hits the player and when the enemy overlaps. and start preparing the powerpoint 
+
+
+Time: Tuesday 08/04/2014 from 7PM to 8PM
+Place: McGill McLennan Library
+Minute taker: Martin Zhang	
+Meeting manager: Marc-André Cataford Smalis
+Problems encountered/discussed: The main thing to do is about finding any kind of bug. The major bug is in the 2P mode if u try to play, when the first player dies the third time it crashes.. <arrayOutOfBounds>. We need back buttons that bring back to the previous panel on the Highscores, and if it's easily implementable, a mute button would be neat. And a new color scheme for the key binding panel. We discussed about our presentation this week.  
+Task allocation:
+Martin and Mete will need to update the javaDoc comments and work on the other finding bugs and possibly fixing them.
+Mete will work on the back button 
+Marc is working on the bug and the key binding panel
+Brett needs to create a Sign Up option so we can easily save the the file game and get it back. 
+Leotard will finish the powerpoint and check for bugs. He will also update the SAD and SRS with Marc.
+
+
+Time: Sunday 13/04/2014 from 3PM to 5PM
+Place: Trottier Bld
+Minute taker: Mete Kemertas	
+Meeting manager: Martin Zhang
+Problems encountered/discussed: fixing all the SRS and SAD information that were modified during the implementation. 

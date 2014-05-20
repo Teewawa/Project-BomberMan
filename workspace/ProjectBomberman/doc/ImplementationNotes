@@ -1,0 +1,30 @@
+ImplementationNotes
+
+
+Behavior we did not have time to implement:
+
+We implemented all features from our initial SAD.
+
+
+Future improvements if more time:
+
+If we had more time, we would have added the following features:
+
+ - Separate score display at the end of a 2 player game
+ 		At the end of each game, display scores of both players in a separate panel with a "Player X wins!" message.
+
+
+ - Simultaeneous 2p games
+ 		Have a 2p game mode where both players are on the map simultaenously.
+
+
+ - Smooth movement
+ 		Make LivingUnits move smoothly from one grid block to the next, as opposed to instantaneously.
+
+
+ - Additional enemies
+ 		More enemy types with different graphics/effects/difficulty.
+
+
+ - Additional powerups
+ 		More powerup types with different graphics/effects.
